@@ -18,14 +18,13 @@ namespace Lab_3
             int userNumber = Convert.ToInt32(Console.ReadLine());
 
 
-            if (userNumber > 0)
+            if (userNumber > 100)
             {
-            }
-            else if (userNumber > 100)
-            {
-                Console.WriteLine("Too many!");
-            }
-            if (userNumber < 1)
+                Console.WriteLine("no good.");
+
+                return;
+            }  
+            else if (userNumber < 1)
             {
                 Console.WriteLine();
 
