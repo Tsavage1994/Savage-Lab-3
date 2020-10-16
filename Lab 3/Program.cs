@@ -54,15 +54,6 @@ namespace Lab_3
                 Console.WriteLine($"{userNumber} Odd");
             }
             Console.WriteLine($"Thank you for picking a number. Good-Bye {userName}.");
-
-
-
-
-
-
-
         }
-
-
     }
 }
